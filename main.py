@@ -1,11 +1,27 @@
 """
-Name(s):
-Name of Project:
+Name(s): Otto and Hudson
+Name of Project: Choose your adventure
 """
 
-#Write the main part of your program here. Use of the other pages is optional.
+import time
+import os
+import sys
+print("Otto and Hudsons final project loading...")
+time.sleep (3.4)
+os.system('clear')
 
-#import page1  # uncomment if you're using page1
-#import page2  # uncomment if you're using page2
-#import page3  # uncomment if you're using page3
-#import page4  # uncomment if you're using page4
+def type(text):
+  words = text
+  for char in words:
+    time.sleep(0.2)
+    sys.stdout.write(char)
+    sys.stdout.flush()
+type("Presenting choose your own adventure by Otto and Hudson")
+
+  
+ 
+
+os.system('clear')
+time.sleep (2.1)
+
+import ii
